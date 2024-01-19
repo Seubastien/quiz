@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Quiz</title>
+</head>
+<header>
+    <h1> QUIZZZ de l'espace</h1>
+</header>
+
+<body>
+    <main>
+        <section>
+            <div id="start">
+                <h2 id="quest"></h2>
+                <div id="ans">
+                    <div class="divp">
+                        <p class="rep" onclick="ansChoice(this)"></p>
+                        <p class="rep" onclick="ansChoice(this)"></p>
+                    </div>
+                    <div class="divp">
+                        <p class="rep" onclick="ansChoice(this)"></p>
+                        <p class="rep" onclick="ansChoice(this)"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="resultCont">
+                <p class="result"></p>
+                <p id="pointsContnair"></p>
+            </div>
+            <div id="end">
+            </div>
+            <button id="replay" type="button" onclick="repl()">REJOUER</button>
+
+        </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
